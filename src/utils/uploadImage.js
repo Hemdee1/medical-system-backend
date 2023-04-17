@@ -20,7 +20,7 @@ const uploadImage = async (id, img) => {
       fetch_format: "auto",
     });
 
-    return res;
+    return res.secure_url;
   } catch (err) {
     console.log(err);
   }
