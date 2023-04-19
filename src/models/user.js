@@ -26,8 +26,8 @@ const userSchema = new Schema({
   img: String,
   state: String,
   address: String,
-  height: String,
-  weight: String,
+  height: Number,
+  weight: Number,
   bloodGroup: String,
   allergies: [String],
 });
